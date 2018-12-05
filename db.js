@@ -5,3 +5,4 @@ mongoose.connect('mongodb://localhost:27017/cruddb',(err)=>{
     else
         console.log('Error'+ JSON.stringify(err, undefined,2));
 });
+module.exports = mongoose;
